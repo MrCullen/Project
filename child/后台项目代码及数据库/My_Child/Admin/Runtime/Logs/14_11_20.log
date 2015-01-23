@@ -1,0 +1,59 @@
+[ 2014-11-20T17:41:23+08:00 ] 127.0.0.1 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003852s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004068s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003470s ]
+NOTIC: [8] Undefined index:  username E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 8 行.
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.010448s ]
+SQL: SELECT * FROM `tp_user` WHERE ( `username` = null ) LIMIT 1   [ RunTime:0.000799s ]
+
+[ 2014-11-20T17:41:28+08:00 ] 127.0.0.1 /My_Child/admin.php/Register/doReg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004433s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004140s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.005101s ]
+NOTIC: [8] Undefined index:  username E:\AppServ\www\My_Child\Admin\Lib\Action\RegisterAction.class.php 第 21 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = null ) LIMIT 1   [ RunTime:0.001927s ]
+
+[ 2014-11-20T17:41:32+08:00 ] 127.0.0.1 /My_Child/admin.php/Login/doLogin/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004617s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004831s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003957s ]
+NOTIC: [8] Undefined index:  username E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 8 行.
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.005347s ]
+SQL: SELECT * FROM `tp_user` WHERE ( `username` = null ) LIMIT 1   [ RunTime:0.003392s ]
+
+[ 2014-11-20T22:38:27+08:00 ] 127.0.0.1 /My_Child/admin.php/Login/dologin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005424s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005638s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003838s ]
+NOTIC: [8] Undefined index:  username E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 8 行.
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.005245s ]
+SQL: SELECT * FROM `tp_user` WHERE ( `username` = null ) LIMIT 1   [ RunTime:0.001652s ]
+
+[ 2014-11-20T23:15:52+08:00 ] 127.0.0.1 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004169s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004383s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003688s ]
+NOTIC: [8] Undefined index:  username E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 8 行.
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.008631s ]
+SQL: SELECT * FROM `tp_user` WHERE ( `username` = null ) LIMIT 1   [ RunTime:0.000717s ]
+

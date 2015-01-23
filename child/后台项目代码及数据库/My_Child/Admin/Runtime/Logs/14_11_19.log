@@ -1,0 +1,415 @@
+[ 2014-11-19T17:19:22+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003020s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+NOTIC: [8] Undefined index:  username E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 8 行.
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.002804s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = null ) LIMIT 1   [ RunTime:0.000974s ]
+
+[ 2014-11-19T17:19:23+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004250s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004463s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003769s ]
+NOTIC: [8] Undefined index:  username E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 8 行.
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.004876s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = null ) LIMIT 1   [ RunTime:0.001249s ]
+
+[ 2014-11-19T17:24:11+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002320s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001881s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006229s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.001821s ]
+
+[ 2014-11-19T17:24:12+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002604s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002056s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.003093s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.001032s ]
+
+[ 2014-11-19T17:25:22+08:00 ] 192.168.1.100 /My_Child/admin.php/Register/doReg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003765s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004009s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003369s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.004604s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001699s ]
+
+[ 2014-11-19T17:25:40+08:00 ] 192.168.1.100 /My_Child/admin.php/Register/doReg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002354s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002481s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.002970s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.001077s ]
+SQL: INSERT INTO `tp_user` (`userpwd`,`username`) VALUES ('123123','phan') [ RunTime:0.000433s ]
+
+[ 2014-11-19T17:27:35+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002173s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002287s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.004182s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.000611s ]
+
+[ 2014-11-19T17:27:35+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004418s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004623s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003187s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.004321s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.001432s ]
+
+[ 2014-11-19T17:27:48+08:00 ] 192.168.1.100 /My_Child/admin.php/Register/doReg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004060s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004263s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003283s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.004469s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.001302s ]
+SQL: INSERT INTO `tp_user` (`userpwd`,`username`) VALUES ('123123','phan') [ RunTime:0.000503s ]
+
+[ 2014-11-19T17:28:05+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002437s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002567s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002590s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.003009s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.000869s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+
+[ 2014-11-19T17:28:05+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003040s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003200s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002658s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.003552s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.001084s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+
+[ 2014-11-19T17:28:22+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004375s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004591s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004082s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.004950s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.001691s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+
+[ 2014-11-19T17:28:22+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003674s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003864s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.002687s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.000815s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+
+[ 2014-11-19T17:28:48+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004271s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004487s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003843s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.003084s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.000897s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+
+[ 2014-11-19T17:28:48+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002074s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.002489s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.000785s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+
+[ 2014-11-19T17:29:46+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003756s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003944s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003177s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.002653s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.000884s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+
+[ 2014-11-19T17:29:46+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003545s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003723s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003040s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.003670s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.001310s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+
+[ 2014-11-19T17:29:48+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003647s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003843s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003466s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.004370s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.001578s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+
+[ 2014-11-19T17:29:49+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003853s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004073s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003267s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.004170s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.001517s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+
+[ 2014-11-19T17:30:35+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003605s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003800s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003510s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.004057s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000525s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+
+[ 2014-11-19T17:30:35+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004060s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004244s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003189s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.002546s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000968s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+
+[ 2014-11-19T17:30:41+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003720s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003909s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003563s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.004047s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001764s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+
+[ 2014-11-19T17:30:41+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002313s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002423s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001867s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.002537s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000911s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+
+[ 2014-11-19T17:30:46+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004017s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004222s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003949s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.004320s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001576s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+
+[ 2014-11-19T17:30:46+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003573s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003754s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003163s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.002542s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000994s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+
+[ 2014-11-19T17:31:54+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004539s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004745s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003584s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.004254s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001741s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 26 行.
+
+[ 2014-11-19T17:31:54+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004297s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004511s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003598s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.004279s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001734s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 26 行.
+
+[ 2014-11-19T17:31:55+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003701s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003895s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003202s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.004240s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001733s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 26 行.
+
+[ 2014-11-19T17:31:55+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004071s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003230s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.004235s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001693s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 26 行.
+
+[ 2014-11-19T17:32:02+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002324s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002453s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.002807s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001124s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 26 行.
+
+[ 2014-11-19T17:32:03+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003653s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003851s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003199s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.036374s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000455s ]
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 26 行.
+
+[ 2014-11-19T17:32:22+08:00 ] 127.0.0.1 /My_Child/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001653s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001755s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+ERR: 非法操作:index
+
+[ 2014-11-19T17:32:25+08:00 ] 127.0.0.1 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002284s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002437s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001939s ]
+NOTIC: [8] Undefined index:  username E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 8 行.
+NOTIC: [8] Undefined index:  userpwd E:\AppServ\www\My_Child\Admin\Lib\Action\LoginAction.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.002142s ]
+SQL: SELECT `userid` FROM `tp_user` WHERE ( `username` = null ) LIMIT 1   [ RunTime:0.000903s ]
+
+[ 2014-11-19T17:32:55+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002219s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002347s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.002788s ]
+SQL: SELECT * FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000425s ]
+
+[ 2014-11-19T17:33:05+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002524s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002668s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002149s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.003008s ]
+SQL: SELECT * FROM `tp_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001163s ]
+
+[ 2014-11-19T17:33:13+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004029s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003251s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.004298s ]
+SQL: SELECT * FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.001951s ]
+
+[ 2014-11-19T17:34:33+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003632s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003827s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003447s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.002992s ]
+SQL: SELECT * FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.001001s ]
+
+[ 2014-11-19T17:34:51+08:00 ] 192.168.1.100 /My_Child/admin.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002277s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001919s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.002666s ]
+SQL: SELECT * FROM `tp_user` WHERE ( `username` = 'phan' ) LIMIT 1   [ RunTime:0.000805s ]
+

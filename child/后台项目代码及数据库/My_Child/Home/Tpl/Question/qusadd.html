@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<script>
+i=1;
+function addrow()
+{
+i++;
+
+str=document.all.mytable.outerHTML;
+str=str.substring(0,str.length-16);
+str+='<tr><td>问题'+i+'<input type="text" name="Question_'+i+'" size="50"></td></tr></tbody></table>';
+document.all.mytable.outerHTML=str;
+}
+</script>
+<body>
+<form action="__APP__/Question/qusadd" method="post" >
+注：此类量表结果均分为几个等级，题目选项均相同</br>
+	评估量表题目：<input type="text" name="LB_title"/></br>
+	评估量表类别: <br><input type="checkbox" name="LB_LeiBie" value="0" />健康量表</br>
+					<input type="checkbox" name="LB_LeiBie" value="1" />心理量表</br>
+					<input type="checkbox" name="LB_LeiBie" value="2" />智力量表</br>
+	量表简介:<textarea name="LB_content" rows="5" ></textarea></br>
+	
+<table id=mytable>
+ <tr>
+   <td>
+     <input type="text" name="Question_1" size="50">
+   </td>
+ </tr>
+</table>
+<input type=button value="增加" onclick=addrow()>
+	
+	量表选项1：<input type="text" name="A"/> 选项对应分数：<input type="text" name="ScoreA"></br>
+	量表选项2：<input type="text" name="B"/> 选项对应分数：<input type="text" name="ScoreB"></br>
+	量表选项3：<input type="text" name="C"/> 选项对应分数：<input type="text" name="ScoreC"></br>
+	量表选项4：<input type="text" name="D"/> 选项对应分数：<input type="text" name="ScoreD"></br>
+	量表选项5：<input type="text" name="E"/> 选项对应分数：<input type="text" name="ScoreE"></br>
+	
+	
+	<input type="submit"/>
+	
+</form>
+</body>
+</html>

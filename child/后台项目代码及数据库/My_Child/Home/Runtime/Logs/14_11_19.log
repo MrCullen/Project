@@ -1,0 +1,1112 @@
+[ 2014-11-19T09:29:48+08:00 ] 127.0.0.1 /My_Child/index.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003630s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004698s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002455s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039015s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001985s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002745s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001942s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009945s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002732s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002865s ]
+
+[ 2014-11-19T09:29:48+08:00 ] 127.0.0.1 /My_Child/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' E:\AppServ\www\My_Child\Home\Lib\Action\PublicAction.class.php 第 5 行.
+
+[ 2014-11-19T09:30:01+08:00 ] 127.0.0.1 /My_Child/index.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001612s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001794s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+NOTIC: [8] Undefined index:  adminpwd E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.022362s ]
+SQL: SELECT `adminid` FROM `tp_manager` WHERE ( `adminname` = '唐文博' ) LIMIT 1   [ RunTime:0.004372s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 20 行.
+NOTIC: [8] Undefined index:  id E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018035s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000707s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000725s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000532s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003256s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001213s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2014-11-19T09:30:02+08:00 ] 127.0.0.1 /My_Child/index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001115s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  type_link E:\AppServ\www\My_Child\Home\Runtime\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 26 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015599s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000336s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000342s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000222s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001462s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000521s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2014-11-19T09:30:04+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+
+[ 2014-11-19T09:30:28+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001734s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001855s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+
+[ 2014-11-19T09:48:02+08:00 ] 127.0.0.1 /My_Child/index.php/Question/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+ERR: 非法操作:index
+
+[ 2014-11-19T09:48:07+08:00 ] 127.0.0.1 /My_Child/index.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000848s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022818s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001531s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001167s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005700s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002290s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002418s ]
+
+[ 2014-11-19T09:48:07+08:00 ] 127.0.0.1 /My_Child/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001111s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' E:\AppServ\www\My_Child\Home\Lib\Action\PublicAction.class.php 第 5 行.
+
+[ 2014-11-19T09:48:17+08:00 ] 127.0.0.1 /My_Child/index.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001629s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001812s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+NOTIC: [8] Undefined index:  adminpwd E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.009065s ]
+SQL: SELECT `adminid` FROM `tp_manager` WHERE ( `adminname` = '唐文博' ) LIMIT 1   [ RunTime:0.002398s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 20 行.
+NOTIC: [8] Undefined index:  id E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018637s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000755s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000730s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003352s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001199s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2014-11-19T09:48:18+08:00 ] 127.0.0.1 /My_Child/index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001009s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  type_link E:\AppServ\www\My_Child\Home\Runtime\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 26 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012699s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000319s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000330s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000218s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001426s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000521s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2014-11-19T09:48:20+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001507s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.005012s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.001291s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000357s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014354s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000442s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000463s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000291s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001987s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000703s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2014-11-19T09:48:21+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look_content?dates=7
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001449s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002952s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.006038s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.005514s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = 7 )  [ RunTime:0.003373s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = 7 )  [ RunTime:0.000607s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = 7 )  [ RunTime:0.000324s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 23 行.
+NOTIC: [8] Use of undefined constant LB_leibie - assumed 'LB_leibie' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 23 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Score - assumed 'Score' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 37 行.
+NOTIC: [8] Use of undefined constant Score - assumed 'Score' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 37 行.
+NOTIC: [8] Use of undefined constant Score - assumed 'Score' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 37 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013182s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000421s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000419s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000284s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001842s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2014-11-19T09:48:40+08:00 ] 127.0.0.1 /My_Child/index.php/Question/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001741s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001933s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002852s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.004160s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.003661s ]
+NOTIC: [8] Undefined index:  dates E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 64 行.
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = null )  [ RunTime:0.003520s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = null )  [ RunTime:0.000438s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = null )  [ RunTime:0.000366s ]
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 70 行.
+
+[ 2014-11-19T09:49:35+08:00 ] 127.0.0.1 /My_Child/index.php/Question/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002836s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003026s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002276s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002767s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.003788s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.003760s ]
+NOTIC: [8] Undefined index:  dates E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 64 行.
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = null )  [ RunTime:0.000296s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = null )  [ RunTime:0.000429s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = null )  [ RunTime:0.000395s ]
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 70 行.
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023499s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001276s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001174s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000909s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004756s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001328s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001412s ]
+
+[ 2014-11-19T09:50:19+08:00 ] 127.0.0.1 /My_Child/index.php/Question/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002282s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002171s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.002708s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.002727s ]
+NOTIC: [8] Undefined index:  dates E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 64 行.
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = null )  [ RunTime:0.000486s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = null )  [ RunTime:0.000336s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = null )  [ RunTime:0.000294s ]
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 70 行.
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+
+[ 2014-11-19T09:50:37+08:00 ] 127.0.0.1 /My_Child/index.php/Question/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001782s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001982s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.004710s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.007453s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.006092s ]
+NOTIC: [8] Undefined index:  dates E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 64 行.
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = null )  [ RunTime:0.001626s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = null )  [ RunTime:0.000698s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = null )  [ RunTime:0.000661s ]
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 70 行.
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+
+[ 2014-11-19T09:51:56+08:00 ] 127.0.0.1 /My_Child/index.php/Question/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001044s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002837s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.003526s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.002841s ]
+NOTIC: [8] Undefined index:  dates E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 64 行.
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = null )  [ RunTime:0.000418s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = null )  [ RunTime:0.000260s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = null )  [ RunTime:0.000202s ]
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 70 行.
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+
+[ 2014-11-19T09:52:26+08:00 ] 127.0.0.1 /My_Child/index.php/Question/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003092s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003292s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002761s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.007025s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.007950s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.007567s ]
+NOTIC: [8] Undefined index:  dates E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 64 行.
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = null )  [ RunTime:0.000911s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = null )  [ RunTime:0.000615s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = null )  [ RunTime:0.002054s ]
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 70 行.
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+
+[ 2014-11-19T09:54:22+08:00 ] 127.0.0.1 /My_Child/index.php/Question/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002665s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002236s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002567s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.003145s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.002834s ]
+NOTIC: [8] Undefined index:  dates E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 64 行.
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = null )  [ RunTime:0.000444s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = null )  [ RunTime:0.000369s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = null )  [ RunTime:0.000317s ]
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 70 行.
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011207s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000815s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000807s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000736s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003499s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001102s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2014-11-19T09:55:21+08:00 ] 127.0.0.1 /My_Child/index.php/Question/add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003326s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003544s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002627s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.005567s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.006247s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.007286s ]
+NOTIC: [8] Undefined index:  dates E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 64 行.
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = null )  [ RunTime:0.001246s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = null )  [ RunTime:0.000722s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = null )  [ RunTime:0.000666s ]
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 70 行.
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029606s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002187s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002276s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002576s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009899s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002540s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002697s ]
+
+[ 2014-11-19T17:15:56+08:00 ] 127.0.0.1 /My_Child/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004786s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004992s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003388s ]
+
+[ 2014-11-19T17:15:56+08:00 ] 127.0.0.1 /My_Child/index.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002164s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002286s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001916s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031768s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002062s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002148s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001920s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008573s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002348s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002433s ]
+
+[ 2014-11-19T17:15:56+08:00 ] 127.0.0.1 /My_Child/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002722s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002886s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' E:\AppServ\www\My_Child\Home\Lib\Action\PublicAction.class.php 第 5 行.
+
+[ 2014-11-19T17:16:06+08:00 ] 127.0.0.1 /My_Child/index.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002526s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002677s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001874s ]
+NOTIC: [8] Undefined index:  adminpwd E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.003788s ]
+SQL: SELECT `adminid` FROM `tp_manager` WHERE ( `adminname` = '唐文博' ) LIMIT 1   [ RunTime:0.000511s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 20 行.
+NOTIC: [8] Undefined index:  id E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001806s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001491s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001967s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007596s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001922s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002010s ]
+
+[ 2014-11-19T17:16:07+08:00 ] 127.0.0.1 /My_Child/index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002135s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002257s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  type_link E:\AppServ\www\My_Child\Home\Runtime\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 26 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016584s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001324s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001230s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001148s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005287s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001906s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002002s ]
+
+[ 2014-11-19T17:16:12+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002127s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002249s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002664s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.000646s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000350s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000276s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019617s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001721s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001610s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001462s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006722s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002045s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002222s ]
+
+[ 2014-11-19T17:16:40+08:00 ] 127.0.0.1 /My_Child/index.php/Index?type_link=2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001719s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001813s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024205s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001256s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001195s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001080s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004982s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001419s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2014-11-19T17:36:02+08:00 ] 127.0.0.1 /My_Child/index.php/Question/qusadd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002447s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002579s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.003219s ]
+SQL: INSERT INTO `tp_liangbiao` (`LB_title`,`LB_LeiBie`,`LB_content`) VALUES ('儿童社交焦虑量表','1','儿童社交焦虑量表的条目涉及社交焦虑所伴发的情感、认知及行为，在本文之后，所附上的量表为最新的10个条目版本。条目使用3级评分制。(0:从不是这样；1：有时是这样；2：一直是这样）量表的得分从0（可能性最低）到20（可能性最高）。分数越高，儿童社交焦虑可能性越大。') [ RunTime:0.001898s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.003339s ]
+SQL: INSERT INTO `tp_answer` (`A`,`ScoreA`,`B`,`ScoreB`,`C`,`ScoreC`,`D`,`ScoreD`,`E`,`ScoreE`,`1`,`2`,`result1`,`3`,`result2`,`4`,`result3`,`createtime`,`LB_id`) VALUES ('从不这样','0','有时这样 ','1','一直这样','2','','','','','0','5','您的孩子较为健康！','10','可能有轻微焦虑症','20','您的孩子焦虑症较为严重，希望注意！',1416389762,15) [ RunTime:0.000513s ]
+ERR: 1054:Unknown column 'createtime' in 'field list'
+ [ SQL语句 ] : INSERT INTO `tp_answer` (`A`,`ScoreA`,`B`,`ScoreB`,`C`,`ScoreC`,`D`,`ScoreD`,`E`,`ScoreE`,`1`,`2`,`result1`,`3`,`result2`,`4`,`result3`,`createtime`,`LB_id`) VALUES ('从不这样','0','有时这样 ','1','一直这样','2','','','','','0','5','您的孩子较为健康！','10','可能有轻微焦虑症','20','您的孩子焦虑症较为严重，希望注意！',1416389762,15)
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.003427s ]
+SQL: INSERT INTO `tp_liangcontent` (`Question_1`,`Question_2`,`Question_3`,`Question_4`,`Question_5`,`Question_6`,`Question_7`,`Question_8`,`Question_9`,`Question_10`,`LB_id`) VALUES ('','','','','','','','','','',15) [ RunTime:0.000529s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016290s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001790s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001752s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001569s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007224s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002114s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002210s ]
+
+[ 2014-11-19T17:36:30+08:00 ] 127.0.0.1 /My_Child/index.php/Question/qusadd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004300s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004509s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003451s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.004858s ]
+SQL: INSERT INTO `tp_liangbiao` (`LB_title`,`LB_LeiBie`,`LB_content`) VALUES ('儿童社交焦虑量表','0','儿童社交焦虑量表的条目涉及社交焦虑所伴发的情感、认知及行为，在本文之后，所附上的量表为最新的10个条目版本。条目使用3级评分制。(0:从不是这样；1：有时是这样；2：一直是这样）量表的得分从0（可能性最低）到20（可能性最高）。分数越高，儿童社交焦虑可能性越大。') [ RunTime:0.001736s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.005520s ]
+SQL: INSERT INTO `tp_answer` (`A`,`ScoreA`,`B`,`ScoreB`,`C`,`ScoreC`,`D`,`ScoreD`,`E`,`ScoreE`,`1`,`2`,`result1`,`3`,`result2`,`4`,`result3`,`createtime`,`LB_id`) VALUES ('从不这样','0','有时这样 ','1','一直这样','2','','','','','0','6','您的孩子较为健康！','10','可能有轻微焦虑症','20','您的孩子焦虑症较为严重，希望注意！',1416389790,16) [ RunTime:0.000652s ]
+ERR: 1054:Unknown column 'createtime' in 'field list'
+ [ SQL语句 ] : INSERT INTO `tp_answer` (`A`,`ScoreA`,`B`,`ScoreB`,`C`,`ScoreC`,`D`,`ScoreD`,`E`,`ScoreE`,`1`,`2`,`result1`,`3`,`result2`,`4`,`result3`,`createtime`,`LB_id`) VALUES ('从不这样','0','有时这样 ','1','一直这样','2','','','','','0','6','您的孩子较为健康！','10','可能有轻微焦虑症','20','您的孩子焦虑症较为严重，希望注意！',1416389790,16)
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.005472s ]
+SQL: INSERT INTO `tp_liangcontent` (`Question_1`,`Question_2`,`Question_3`,`Question_4`,`Question_5`,`Question_6`,`Question_7`,`Question_8`,`Question_9`,`Question_10`,`LB_id`) VALUES ('','','','','','','','','','',16) [ RunTime:0.001067s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044485s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002513s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001830s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008896s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002157s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002255s ]
+
+[ 2014-11-19T17:43:05+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002275s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001868s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002477s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.000601s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000205s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014946s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001361s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001280s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001134s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005355s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001437s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2014-11-19T17:43:35+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look_content?dates=16
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002339s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002462s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002172s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.003227s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.003074s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = 16 )  [ RunTime:0.000756s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = 16 )  [ RunTime:0.000310s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = 16 )  [ RunTime:0.000264s ]
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 49 行.
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 50 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 23 行.
+NOTIC: [8] Use of undefined constant LB_leibie - assumed 'LB_leibie' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 23 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045752s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001281s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001212s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001148s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005087s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001393s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2014-11-19T17:50:10+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002195s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002334s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002701s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.001102s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000400s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000336s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019287s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001275s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001228s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001213s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005240s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001660s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001736s ]
+
+[ 2014-11-19T17:50:11+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look_content?dates=16
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002548s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002702s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002265s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.002932s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.002316s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = 16 )  [ RunTime:0.000435s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = 16 )  [ RunTime:0.000342s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = 16 )  [ RunTime:0.000289s ]
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 49 行.
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 50 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 23 行.
+NOTIC: [8] Use of undefined constant LB_leibie - assumed 'LB_leibie' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 23 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013969s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001187s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001217s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004946s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001462s ]
+
+[ 2014-11-19T17:50:14+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002247s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002436s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001857s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002160s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.000891s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000227s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014941s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001207s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001218s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001146s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005076s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001522s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001610s ]
+
+[ 2014-11-19T17:50:14+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002301s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.003268s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.001080s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000246s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000205s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015299s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001246s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001218s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005020s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001402s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001466s ]
+
+[ 2014-11-19T17:50:16+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look_content?dates=15
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002401s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002540s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002048s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002136s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.002752s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.002572s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = 15 )  [ RunTime:0.001186s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = 15 )  [ RunTime:0.000334s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = 15 )  [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 23 行.
+NOTIC: [8] Use of undefined constant LB_leibie - assumed 'LB_leibie' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 23 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Score - assumed 'Score' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 37 行.
+NOTIC: [8] Undefined index:  ScoreA E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 37 行.
+NOTIC: [8] Use of undefined constant Score - assumed 'Score' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 37 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014641s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001237s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001252s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001160s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005299s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001547s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001634s ]
+
+[ 2014-11-19T18:16:30+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look_content?dates=15
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003647s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003065s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.003414s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.004519s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.003478s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = 15 )  [ RunTime:0.000752s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = 15 )  [ RunTime:0.000476s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = 15 )  [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 23 行.
+NOTIC: [8] Use of undefined constant LB_leibie - assumed 'LB_leibie' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 23 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Score - assumed 'Score' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 37 行.
+NOTIC: [8] Undefined index:  ScoreA E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 37 行.
+NOTIC: [8] Use of undefined constant Score - assumed 'Score' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 37 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017443s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001565s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001518s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001373s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006276s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001773s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001863s ]
+
+[ 2014-11-19T18:17:41+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004406s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004617s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003808s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.003475s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.000884s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000443s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000411s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021613s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001236s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001210s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001122s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005137s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001441s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2014-11-19T18:17:43+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look_content?dates=15
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002155s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002283s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001956s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002894s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.003715s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.004215s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = 15 )  [ RunTime:0.000642s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = 15 )  [ RunTime:0.000719s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = 15 )  [ RunTime:0.000512s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 23 行.
+NOTIC: [8] Use of undefined constant LB_leibie - assumed 'LB_leibie' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 23 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Score - assumed 'Score' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 37 行.
+NOTIC: [8] Undefined index:  ScoreA E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 37 行.
+NOTIC: [8] Use of undefined constant Score - assumed 'Score' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 37 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019796s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001757s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001727s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001327s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006405s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001429s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2014-11-19T18:17:48+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002137s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002257s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002982s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.001422s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000252s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014008s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001258s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001215s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001135s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005012s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001395s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2014-11-19T18:17:49+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look_content?dates=16
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002342s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002473s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002290s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002126s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.002822s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.002251s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = 16 )  [ RunTime:0.000406s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = 16 )  [ RunTime:0.000324s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = 16 )  [ RunTime:0.000243s ]
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 49 行.
+NOTIC: [2] array_filter() [<a href='function.array-filter'>function.array-filter</a>]: The first argument should be an array E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 50 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 23 行.
+NOTIC: [8] Use of undefined constant LB_leibie - assumed 'LB_leibie' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 23 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013415s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001306s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001262s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005143s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001393s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2014-11-19T18:17:50+08:00 ] 127.0.0.1 /My_Child/index.php/Index?type_link=2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002121s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002239s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015760s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001205s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001195s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001077s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004914s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001396s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001463s ]
+
+[ 2014-11-19T18:17:53+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002186s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002317s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002099s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.000884s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000192s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000271s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013384s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001192s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001196s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001063s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004863s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001532s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2014-11-19T18:17:54+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look_content?dates=15
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002473s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002610s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002128s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.003032s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.004149s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.003859s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = 15 )  [ RunTime:0.002028s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = 15 )  [ RunTime:0.001422s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = 15 )  [ RunTime:0.000838s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 23 行.
+NOTIC: [8] Use of undefined constant LB_leibie - assumed 'LB_leibie' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 23 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 32 行.
+NOTIC: [8] Use of undefined constant Score - assumed 'Score' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 37 行.
+NOTIC: [8] Undefined index:  ScoreA E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 37 行.
+NOTIC: [8] Use of undefined constant Score - assumed 'Score' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 37 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018913s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001391s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001419s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001164s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005592s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001428s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001497s ]
+
+[ 2014-11-19T18:20:30+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004323s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004546s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003515s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.004546s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.002627s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000406s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020252s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001823s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001907s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001908s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007792s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002030s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002122s ]
+
+[ 2014-11-19T18:20:35+08:00 ] 127.0.0.1 /My_Child/index.php/User/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002320s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.003304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT * FROM `tp_user` LIMIT 0,2   [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013991s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001229s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001221s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001081s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004997s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001607s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001684s ]
+
+[ 2014-11-19T18:20:51+08:00 ] 127.0.0.1 /My_Child/index.php/User/lookresult?userid=8
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004102s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003486s ]
+SQL: SHOW COLUMNS FROM `tp_history` [ RunTime:0.003521s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.003348s ]
+SQL: SELECT * FROM `tp_user` WHERE ( `userid` = 8 )  [ RunTime:0.000774s ]
+SQL: SELECT * FROM `tp_history` WHERE ( `userid` = 8 )  [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\AppServ\www\My_Child\Home\Runtime\Cache\8f7200209e942683558b224b8320957a.php 第 28 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021041s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001781s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002036s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001722s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007799s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002070s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002166s ]
+

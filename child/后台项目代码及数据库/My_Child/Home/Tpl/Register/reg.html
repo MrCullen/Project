@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>注册</title>
+<load href="__PUBLIC__/Css/Home/reg.css"/>
+<load href="__PUBLIC__/Js/jquery.js"/>
+<script>
+	$(function(){
+	var error=new Array();
+		$('input[name="adminname"]').blur(function(){
+		var adminname=$(this).val();
+		$.get('__URL__/checkName',{'adminname':adminname},function(data){
+			if(data=='不允许注册'){
+				error['aa']=1;
+				$('input[name="adminname"]').after('<p id="adminname" style="color:red">该管理员已经注册</p>');
+				}
+				else{
+				error['aa']=0;
+				$('#adminname').remove();
+				}
+			});
+		});
+		//提交表单
+		$('img.reg').click(function(){
+			if(error['aa']==1){
+				return false;
+			}else
+			{
+				$('form[name="myFrom"]').submit();}
+		});
+		
+	});
+</script>
+<style type="text/css">
+<!--
+body {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.STYLE3 {
+	font-family: "宋体";
+	font-weight: bold;
+	color: #3300FF;
+}
+-->
+</style>
+</head>
+
+<body>
+
+<form action="__URL__/doReg" method="post" name="myFrom">
+<div align="center">
+		<h2><span class="STYLE3">健康评估系统管理员注册</span></h2>
+  </div>
+	<b>管理员名：</b><input type="text" name="adminname"/><br/>
+	<b>密　　码：</b><input type="password" name="adminpwd"/><br/>
+	<b>确认密码：</b><input type="password" name="repassword"/><br/>
+	<b>验证　码：</b><input type="text" name="code"/><img src="__APP__/Public/code" onclick="this.src=this.src+'?'+Math.random()"><br/>
+	<img src="__PUBLIC__/images/b04.gif" class="reg"/>
+	<img src="__PUBLIC__/images/b03.gif" class="reset"/>
+</form>
+</body>
+</html>

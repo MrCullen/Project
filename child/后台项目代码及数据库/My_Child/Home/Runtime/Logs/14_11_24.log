@@ -1,0 +1,1393 @@
+[ 2014-11-24T12:56:56+08:00 ] 127.0.0.1 /My_Child/index.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000794s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009905s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000790s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000810s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000692s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003354s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001027s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2014-11-24T12:56:57+08:00 ] 127.0.0.1 /My_Child/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' E:\AppServ\www\My_Child\Home\Lib\Action\PublicAction.class.php 第 5 行.
+
+[ 2014-11-24T12:57:08+08:00 ] 127.0.0.1 /My_Child/index.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000808s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+
+[ 2014-11-24T12:57:24+08:00 ] 127.0.0.1 /My_Child/index.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000786s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.006139s ]
+SQL: SELECT `adminid` FROM `tp_manager` WHERE ( `adminname` = 'twb' ) LIMIT 1   [ RunTime:0.001453s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 22 行.
+NOTIC: [8] Undefined index:  id E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011153s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000342s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000337s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000229s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001488s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000523s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2014-11-24T12:57:25+08:00 ] 127.0.0.1 /My_Child/index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  type_link E:\AppServ\www\My_Child\Home\Runtime\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 26 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014199s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000354s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000341s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000228s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000533s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2014-11-24T12:57:28+08:00 ] 127.0.0.1 /My_Child/index.php/Index?type_link=2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000922s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000331s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000328s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000224s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001449s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2014-11-24T12:58:17+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001259s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.003061s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.001159s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000191s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000167s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018173s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000823s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000798s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003276s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000994s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2014-11-24T13:00:48+08:00 ] 127.0.0.1 /My_Child/index.php/Question/test
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001273s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002704s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.001602s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000223s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000186s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035064s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000847s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000835s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003366s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000964s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2014-11-24T13:00:49+08:00 ] 127.0.0.1 /My_Child/index.php/Index?type_link=2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001324s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010882s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000461s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000355s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000225s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001624s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2014-11-24T13:06:56+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001287s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.003555s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.002264s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000519s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014010s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000820s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000810s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003509s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001017s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2014-11-24T13:07:10+08:00 ] 127.0.0.1 /My_Child/index.php/Index?type_link=2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000808s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011438s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000380s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000354s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000239s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001624s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000566s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2014-11-24T13:07:13+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001103s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002463s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.001197s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000186s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000163s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010657s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000338s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000328s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000221s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001449s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000517s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2014-11-24T13:07:14+08:00 ] 127.0.0.1 /My_Child/index.php/Index?type_link=2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010151s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000389s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000358s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001662s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000595s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2014-11-24T13:13:28+08:00 ] 127.0.0.1 /My_Child/index.php/Question/qusadd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002300s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002457s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002648s ]
+SQL: INSERT INTO `tp_liangbiao` (`LB_title`,`LB_LeiBie`,`LB_content`,`createtime`) VALUES ('儿童多动症行为量表 ','0','此量表由教师或家长填写。共有16项。\r\n  计分方法：按是否经常出现或症状的严重程度分别以3（很多）、2（较多）、l（稍有）0（无）计分。多动症儿童的判别标准为： 总分＜5：基本可排除多动症； 总分5～15：有较轻的多动倾向； 总分15～ 30：有明显的多动症； 总分＞ 30：有严重的多动症。 \r\n多动症行为量表可对疑有多动症的儿童做一预测，测查结果有重要的参考作用。\r\n',1416806008) [ RunTime:0.003210s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.227204s ]
+SQL: INSERT INTO `tp_answer` (`A1`,`s1`,`A2`,`s2`,`A3`,`s3`,`A4`,`s4`,`LB_id`) VALUES ('很多',3,'较多',2,'稍有',1,'无',0,5) [ RunTime:0.002449s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.048881s ]
+SQL: INSERT INTO `tp_liangcontent` (`Question_1`,`Question_2`,`Question_3`,`Question_4`,`Question_5`,`Question_6`,`Question_7`,`Question_8`,`Question_9`,`Question_10`,`Question_11`,`Question_12`,`Question_13`,`Question_14`,`Question_15`,`Question_16`,`LB_id`) VALUES ('坐立不安，活动过多','上课时随便讲话或叫喊','上课时小动作多','注意力不集中，容易分心','兴奋激动，容易冲动，与人争吵','经常惹人或干扰他人活动 ','作业不认真，不能集中思想，边做边玩','做事不能有始有终','情绪改变快 ','集体活动时好占上风，争先恐后，不守纪律','学习成绩差或时好时坏 ','不爱惜东西，经常弄坏学习用品','说谎，骂人或打架 ','随便拿父母的钱，或在外有偷窃行为','逃学或旷课','要求必须立即满足',5) [ RunTime:0.002478s ]
+SQL: SHOW COLUMNS FROM `tp_result` [ RunTime:0.041243s ]
+SQL: INSERT INTO `tp_result` (`resscore1`,`result1`,`resscore2`,`result2`,`resscore3`,`result3`,`resscore4`,`result4`,`LB_id`) VALUES (5,'基本可排除多动症',15,'有较轻的多动倾向',30,'有明显的多动症',48,'有严重的多动症',5) [ RunTime:0.002815s ]
+NOTIC: [8] Use of undefined constant lastId2 - assumed 'lastId2' E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024236s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002613s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002003s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001704s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008315s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001112s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2014-11-24T13:13:29+08:00 ] 127.0.0.1 /My_Child/index.php/Index?type_link=2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000757s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011305s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000347s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000325s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000218s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001510s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000524s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2014-11-24T13:13:33+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000777s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.003073s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.001556s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000243s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000209s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010268s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000304s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000305s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000232s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001365s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000514s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2014-11-24T13:15:10+08:00 ] 127.0.0.1 /My_Child/index.php/Index?type_link=2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002107s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002225s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010346s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000346s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000332s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000224s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001469s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000529s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2014-11-24T13:20:12+08:00 ] 127.0.0.1 /My_Child/index.php/Question/qusadd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001332s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.003010s ]
+SQL: INSERT INTO `tp_liangbiao` (`LB_title`,`LB_LeiBie`,`LB_content`,`createtime`) VALUES ('青少年忧郁情绪自我检视表','1','    很高兴你打开了这份量表，表示你已 Open Your Mind，开始和情绪做 Friend !\r\n请你按照最近两周的想法与感觉，回答“是”或“否”：\r\n注：此为忧郁情绪检核表，并非忧郁症的诊断，有相关忧郁情绪倾向请向专业的心理医生寻求协助。',1416806412) [ RunTime:0.002070s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.002649s ]
+SQL: INSERT INTO `tp_answer` (`A1`,`s1`,`A2`,`s2`,`LB_id`) VALUES ('是',1,'否',0,6) [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.002590s ]
+SQL: INSERT INTO `tp_liangcontent` (`Question_1`,`Question_2`,`Question_3`,`Question_4`,`Question_5`,`Question_6`,`Question_7`,`Question_8`,`Question_9`,`Question_10`,`Question_11`,`Question_12`,`Question_13`,`Question_14`,`Question_15`,`Question_16`,`Question_17`,`Question_18`,`Question_19`,`Question_20`,`LB_id`) VALUES ('我觉得现在比以前容易失去耐心','我比平常更容易烦躁','我想离开目前的生活环境','我变得比以前容易生气','我心情变得很不好','我变得整天懒洋洋、无精打采','我觉得身体不舒服','我常觉得胸闷','最近大多数时候我觉得全身无力','我变得睡眠不安宁，很容易失眠或惊醒','我变得很不想上学','我变得对许多事都失去兴趣','我变得坐立不安，静不下来',' 我变得只想一个人独处','我变得什么事都不想做','无论我做什么都不会让我变得更好','我觉得自己很差劲','我变得没有办法集中注意力',' 我对自己很失望','我想要消失不见',6) [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `tp_result` [ RunTime:0.002280s ]
+SQL: INSERT INTO `tp_result` (`resscore1`,`result1`,`resscore2`,`result2`,`resscore3`,`result3`,`LB_id`) VALUES (5,'你真的不错喔 ! 忧郁程度满低的，平时就知道要如何调整情绪及纾解压力吧。继续保持下去，别让忧郁情绪发酵 !',11,'最近的心情是不是起起伏伏，有些令人烦恼的事 ? 要不要试着把问题及感受向自己信任的人 (例如朋友、父母或师长)说出来， 一起讨论解决的方法。 他们的经验会带给你不同的想法 ! 你也可以做些愉快的事，多做腹式深呼吸， 每天运动，保持活动的习惯，让自己有活力 !',20,'是不是已持续一阵子都闷闷的 ? 觉得步伐、肩膀很沉重， 或是常常担心很多事，很焦虑 ? 你的忧郁程度已经颇高了，需要好好注意了。 赶快把自己的情况告诉学校的辅导老师或专业机构， 请他们给予协助， 求助不代表你不行，反而表示你聪明得善用资源呢 !',6) [ RunTime:0.001007s ]
+NOTIC: [8] Use of undefined constant lastId2 - assumed 'lastId2' E:\AppServ\www\My_Child\Home\Lib\Action\QuestionAction.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010211s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000791s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000796s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000695s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004789s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001225s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2014-11-24T13:20:13+08:00 ] 127.0.0.1 /My_Child/index.php/Index?type_link=2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012766s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000345s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000329s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000220s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001464s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000522s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2014-11-24T13:20:15+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001181s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.003562s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.001454s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000352s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010715s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000343s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000329s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000224s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001469s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000512s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2014-11-24T13:20:18+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look_content?dates=6
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000797s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002581s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.003434s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.002863s ]
+SQL: SHOW COLUMNS FROM `tp_result` [ RunTime:0.003402s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = 6 )  [ RunTime:0.000895s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = 6 )  [ RunTime:0.000234s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = 6 )  [ RunTime:0.000169s ]
+SQL: SELECT * FROM `tp_result` WHERE ( `LB_id` = 6 )  [ RunTime:0.000187s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 24 行.
+NOTIC: [8] Use of undefined constant LB_leibie - assumed 'LB_leibie' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 24 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant result1 - assumed 'result1' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore1 - assumed 'resscore1' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012046s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000359s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000331s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000221s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001470s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000540s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2014-11-24T13:20:30+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002936s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.000421s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000940s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012263s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000359s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000348s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001863s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000715s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2014-11-24T13:20:33+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look_content?dates=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000767s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002239s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.004556s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.004374s ]
+SQL: SHOW COLUMNS FROM `tp_result` [ RunTime:0.002462s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = 5 )  [ RunTime:0.001084s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = 5 )  [ RunTime:0.000217s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = 5 )  [ RunTime:0.000168s ]
+SQL: SELECT * FROM `tp_result` WHERE ( `LB_id` = 5 )  [ RunTime:0.000166s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 24 行.
+NOTIC: [8] Use of undefined constant LB_leibie - assumed 'LB_leibie' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 24 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant result1 - assumed 'result1' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore1 - assumed 'resscore1' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011866s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000330s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000324s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000218s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001420s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000532s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2014-11-24T13:23:01+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look_content?dates=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001403s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001513s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.003050s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.004021s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.003491s ]
+SQL: SHOW COLUMNS FROM `tp_result` [ RunTime:0.002946s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = 5 )  [ RunTime:0.000949s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = 5 )  [ RunTime:0.000253s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = 5 )  [ RunTime:0.000193s ]
+SQL: SELECT * FROM `tp_result` WHERE ( `LB_id` = 5 )  [ RunTime:0.000175s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 24 行.
+NOTIC: [8] Use of undefined constant LB_leibie - assumed 'LB_leibie' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 24 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant result1 - assumed 'result1' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore1 - assumed 'resscore1' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014790s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000828s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000804s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000700s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003824s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001058s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2014-11-24T13:23:05+08:00 ] 127.0.0.1 /My_Child/index.php/Index?type_link=2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000787s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013283s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000378s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000342s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000227s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002260s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000535s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2014-11-24T13:23:06+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005615s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.003817s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.001067s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000287s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012245s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000370s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000352s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002354s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2014-11-24T13:23:08+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look_content?dates=6
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000798s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002982s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.003453s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.003675s ]
+SQL: SHOW COLUMNS FROM `tp_result` [ RunTime:0.003120s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = 6 )  [ RunTime:0.000918s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = 6 )  [ RunTime:0.000250s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = 6 )  [ RunTime:0.000197s ]
+SQL: SELECT * FROM `tp_result` WHERE ( `LB_id` = 6 )  [ RunTime:0.000185s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 24 行.
+NOTIC: [8] Use of undefined constant LB_leibie - assumed 'LB_leibie' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 24 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant result1 - assumed 'result1' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore1 - assumed 'resscore1' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013949s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000349s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000338s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000227s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002233s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000552s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2014-11-24T15:46:38+08:00 ] 127.0.0.1 /My_Child/index.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001794s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001901s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020351s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001368s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001649s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001189s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005796s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001805s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001883s ]
+
+[ 2014-11-24T15:46:39+08:00 ] 127.0.0.1 /My_Child/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002748s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002923s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002692s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' E:\AppServ\www\My_Child\Home\Lib\Action\PublicAction.class.php 第 5 行.
+
+[ 2014-11-24T15:46:40+08:00 ] 127.0.0.1 /My_Child/index.php/Register/reg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003203s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003361s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002275s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024385s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002288s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002266s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002126s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009472s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002690s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002839s ]
+
+[ 2014-11-24T15:46:40+08:00 ] 127.0.0.1 /My_Child/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009377s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001913s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' E:\AppServ\www\My_Child\Home\Lib\Action\PublicAction.class.php 第 5 行.
+
+[ 2014-11-24T15:46:45+08:00 ] 127.0.0.1 /My_Child/index.php/Register/checkName?adminname=123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001007s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.003203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_manager` WHERE ( `adminname` = '123' ) LIMIT 1   [ RunTime:0.001670s ]
+
+[ 2014-11-24T15:46:51+08:00 ] 127.0.0.1 /My_Child/index.php/Register/doReg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001068s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.005096s ]
+NOTIC: [8] Undefined variable: data E:\AppServ\www\My_Child\Home\Lib\Action\RegisterAction.class.php 第 28 行.
+SQL: INSERT INTO `tp_manager` (`adminname`,`adminpwd`) VALUES ('123','123') [ RunTime:0.031523s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028183s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002293s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001968s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001795s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009677s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002399s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002545s ]
+
+[ 2014-11-24T15:46:52+08:00 ] 127.0.0.1 /My_Child/index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001263s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+
+[ 2014-11-24T15:46:52+08:00 ] 127.0.0.1 /My_Child/index.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009179s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000335s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000333s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000228s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002207s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2014-11-24T15:46:52+08:00 ] 127.0.0.1 /My_Child/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001339s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' E:\AppServ\www\My_Child\Home\Lib\Action\PublicAction.class.php 第 5 行.
+
+[ 2014-11-24T18:40:09+08:00 ] 127.0.0.1 /My_Child/index.php/Question/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001660s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001790s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+ERR: 非法操作:index
+
+[ 2014-11-24T18:40:44+08:00 ] 127.0.0.1 /My_Child/index.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000826s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.058816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059006s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001857s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001794s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001775s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007580s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002156s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002259s ]
+
+[ 2014-11-24T18:40:44+08:00 ] 127.0.0.1 /My_Child/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000855s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' E:\AppServ\www\My_Child\Home\Lib\Action\PublicAction.class.php 第 5 行.
+
+[ 2014-11-24T18:48:07+08:00 ] 127.0.0.1 /My_Child/index.php/Question/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001418s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+ERR: 非法操作:index
+
+[ 2014-11-24T18:48:13+08:00 ] 127.0.0.1 /My_Child/index.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001229s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+NOTIC: [8] Undefined index:  adminname E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 8 行.
+NOTIC: [8] Undefined index:  adminpwd E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 9 行.
+NOTIC: [8] Undefined index:  code E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018939s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000898s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000889s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000772s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003785s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001106s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2014-11-24T18:48:16+08:00 ] 127.0.0.1 /My_Child/index.php/Question/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+ERR: 非法操作:index
+
+[ 2014-11-24T18:48:42+08:00 ] 127.0.0.1 /My_Child/index.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001053s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009116s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000408s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000370s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001677s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000582s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2014-11-24T18:48:42+08:00 ] 127.0.0.1 /My_Child/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' E:\AppServ\www\My_Child\Home\Lib\Action\PublicAction.class.php 第 5 行.
+
+[ 2014-11-24T18:48:56+08:00 ] 127.0.0.1 /My_Child/index.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.004051s ]
+SQL: SELECT `adminid` FROM `tp_manager` WHERE ( `adminname` = 'twb' ) LIMIT 1   [ RunTime:0.002065s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 22 行.
+NOTIC: [8] Undefined index:  id E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008966s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000344s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000340s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000229s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001497s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000529s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2014-11-24T18:48:57+08:00 ] 127.0.0.1 /My_Child/index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001073s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  type_link E:\AppServ\www\My_Child\Home\Runtime\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 26 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017479s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000341s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000324s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000217s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001444s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000518s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2014-11-24T18:48:59+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001120s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.004370s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=0 )  [ RunTime:0.001771s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=1 )  [ RunTime:0.000507s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( LB_LeiBie=2 )  [ RunTime:0.000345s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032714s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000383s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000374s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000270s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001652s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2014-11-24T18:51:44+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look_content?dates=4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001043s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002594s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.003384s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.002906s ]
+SQL: SHOW COLUMNS FROM `tp_result` [ RunTime:0.003088s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = 4 )  [ RunTime:0.001224s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = 4 )  [ RunTime:0.001090s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = 4 )  [ RunTime:0.000403s ]
+SQL: SELECT * FROM `tp_result` WHERE ( `LB_id` = 4 )  [ RunTime:0.016180s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 24 行.
+NOTIC: [8] Use of undefined constant LB_leibie - assumed 'LB_leibie' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 24 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant result1 - assumed 'result1' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore1 - assumed 'resscore1' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012788s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000323s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000331s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000208s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001379s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000584s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2014-11-24T18:51:49+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look_content?dates=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001144s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.004025s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.003286s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.003078s ]
+SQL: SHOW COLUMNS FROM `tp_result` [ RunTime:0.002717s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = 5 )  [ RunTime:0.000909s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = 5 )  [ RunTime:0.000307s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = 5 )  [ RunTime:0.000250s ]
+SQL: SELECT * FROM `tp_result` WHERE ( `LB_id` = 5 )  [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 24 行.
+NOTIC: [8] Use of undefined constant LB_leibie - assumed 'LB_leibie' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 24 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant result1 - assumed 'result1' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore1 - assumed 'resscore1' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012022s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000339s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000333s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000222s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001454s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2014-11-24T18:51:52+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look_content?dates=3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001014s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.003734s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.004547s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.003511s ]
+SQL: SHOW COLUMNS FROM `tp_result` [ RunTime:0.002923s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = 3 )  [ RunTime:0.000870s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = 3 )  [ RunTime:0.000272s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = 3 )  [ RunTime:0.000244s ]
+SQL: SELECT * FROM `tp_result` WHERE ( `LB_id` = 3 )  [ RunTime:0.000304s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 24 行.
+NOTIC: [8] Use of undefined constant LB_leibie - assumed 'LB_leibie' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 24 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant result1 - assumed 'result1' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore1 - assumed 'resscore1' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011814s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000336s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000219s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001434s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000532s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2014-11-24T18:51:55+08:00 ] 127.0.0.1 /My_Child/index.php/Question/look_content?dates=6
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001037s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `tp_liangbiao` [ RunTime:0.002498s ]
+SQL: SHOW COLUMNS FROM `tp_liangcontent` [ RunTime:0.003265s ]
+SQL: SHOW COLUMNS FROM `tp_answer` [ RunTime:0.004062s ]
+SQL: SHOW COLUMNS FROM `tp_result` [ RunTime:0.003204s ]
+SQL: SELECT * FROM `tp_liangbiao` WHERE ( `LB_id` = 6 )  [ RunTime:0.000831s ]
+SQL: SELECT * FROM `tp_liangcontent` WHERE ( `LB_id` = 6 )  [ RunTime:0.000321s ]
+SQL: SELECT * FROM `tp_answer` WHERE ( `LB_id` = 6 )  [ RunTime:0.000221s ]
+SQL: SELECT * FROM `tp_result` WHERE ( `LB_id` = 6 )  [ RunTime:0.000226s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant vo - assumed 'vo' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 24 行.
+NOTIC: [8] Use of undefined constant LB_leibie - assumed 'LB_leibie' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 24 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant Question_ - assumed 'Question_' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 33 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant A - assumed 'A' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant s - assumed 's' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 38 行.
+NOTIC: [8] Use of undefined constant result1 - assumed 'result1' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore1 - assumed 'resscore1' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+NOTIC: [8] Use of undefined constant resscore - assumed 'resscore' E:\AppServ\www\My_Child\Home\Runtime\Cache\c42505d655666df46989d4c6db207272.php 第 42 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012393s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000338s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000354s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000211s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001431s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000527s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2014-11-24T19:40:28+08:00 ] 127.0.0.1 /My_Child/index.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003390s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003352s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.058512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058761s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002961s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002830s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002155s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012242s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002947s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003135s ]
+
+[ 2014-11-24T19:40:28+08:00 ] 127.0.0.1 /My_Child/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001863s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002058s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' E:\AppServ\www\My_Child\Home\Lib\Action\PublicAction.class.php 第 5 行.
+
+[ 2014-11-24T23:25:20+08:00 ] 127.0.0.1 /My_Child/index.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001313s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019433s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001400s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001251s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001183s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006042s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001665s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001785s ]
+
+[ 2014-11-24T23:25:20+08:00 ] 127.0.0.1 /My_Child/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001263s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' E:\AppServ\www\My_Child\Home\Lib\Action\PublicAction.class.php 第 5 行.
+
+[ 2014-11-24T23:25:31+08:00 ] 127.0.0.1 /My_Child/index.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001704s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001845s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.003686s ]
+SQL: SELECT `adminid` FROM `tp_manager` WHERE ( `adminname` = 'twb' ) LIMIT 1   [ RunTime:0.001156s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 22 行.
+NOTIC: [8] Undefined index:  id E:\AppServ\www\My_Child\Home\Lib\Action\LoginAction.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043974s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001892s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001892s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001666s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009076s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002687s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002857s ]
+
+[ 2014-11-24T23:25:32+08:00 ] 127.0.0.1 /My_Child/index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001041s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  type_link E:\AppServ\www\My_Child\Home\Runtime\Cache\7e4848229090366086cc7eeb3bfc0798.php 第 26 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031867s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000797s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000778s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000539s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005567s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001295s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001472s ]
+
